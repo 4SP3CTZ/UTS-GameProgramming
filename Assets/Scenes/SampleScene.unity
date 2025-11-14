@@ -21281,7 +21281,10 @@ GameObject:
   - component: {fileID: 1558778137}
   - component: {fileID: 1558778139}
   - component: {fileID: 1558778138}
+<<<<<<< HEAD
   - component: {fileID: 1558778140}
+=======
+>>>>>>> Map-Setup
   m_Layer: 0
   m_Name: Cows (2)
   m_TagString: Animal
@@ -21391,6 +21394,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!95 &1558778140
 Animator:
   serializedVersion: 5
@@ -21412,6 +21416,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Map-Setup
 --- !u!1 &1589513593
 GameObject:
   m_ObjectHideFlags: 0
@@ -21533,6 +21539,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 817592294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!95 &1589513597
 Animator:
   serializedVersion: 5
@@ -21554,6 +21561,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Map-Setup
 --- !u!1 &1645912909
 GameObject:
   m_ObjectHideFlags: 0
@@ -21565,7 +21574,10 @@ GameObject:
   - component: {fileID: 1645912910}
   - component: {fileID: 1645912912}
   - component: {fileID: 1645912911}
+<<<<<<< HEAD
   - component: {fileID: 1645912913}
+=======
+>>>>>>> Map-Setup
   m_Layer: 0
   m_Name: Cows (3)
   m_TagString: Animal
@@ -21675,6 +21687,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!95 &1645912913
 Animator:
   serializedVersion: 5
@@ -21696,6 +21709,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Map-Setup
 --- !u!1 &1839387862
 GameObject:
   m_ObjectHideFlags: 0
@@ -27131,7 +27146,11 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
+<<<<<<< HEAD
       m_TileSpriteIndex: 5
+=======
+      m_TileSpriteIndex: 4
+>>>>>>> Map-Setup
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27141,7 +27160,11 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
+<<<<<<< HEAD
       m_TileSpriteIndex: 4
+=======
+      m_TileSpriteIndex: 3
+>>>>>>> Map-Setup
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27290,14 +27313,22 @@ Tilemap:
     m_Data: {fileID: 257132660, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 39
     m_Data: {fileID: 103605040, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
+<<<<<<< HEAD
   - m_RefCount: 0
     m_Data: {fileID: 0}
+=======
+>>>>>>> Map-Setup
   - m_RefCount: 1
     m_Data: {fileID: -1944809828, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 701756065, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1363851858, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
+<<<<<<< HEAD
+=======
+  - m_RefCount: 1
+    m_Data: {fileID: -1104472387, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
+>>>>>>> Map-Setup
   - m_RefCount: 7
     m_Data: {fileID: -417334116, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 8
@@ -27370,8 +27401,13 @@ Tilemap:
     m_Data: {fileID: 322840588, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 711206926, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
+<<<<<<< HEAD
   - m_RefCount: 1
     m_Data: {fileID: -1104472387, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
+=======
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+>>>>>>> Map-Setup
   - m_RefCount: 12
     m_Data: {fileID: -114977515, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 9
