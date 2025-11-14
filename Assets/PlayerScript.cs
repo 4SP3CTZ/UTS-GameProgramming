@@ -6,58 +6,68 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
-    public float recoilForce = 30f;
-    public Animator animator;
+    public float recoilForce = 8f;
+    public float recoilDuration = 0.2f;
+    private float recoilTimer = 0f;
 
-    // Sprite flipping support
+    public Animator animator;
     private SpriteRenderer spriteRenderer;
+
+    private Vector2 recoilDirection;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); 
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-      
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        movement = movement.normalized;
-
-       
-        if (movement.x != 0 || movement.y != 0)
-            animator.SetBool("isRunning", true);
-        else
-            animator.SetBool("isRunning", false);
+     
+        if (recoilTimer <= 0)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            movement = movement.normalized;
+        }
 
         
+        animator.SetBool("isRunning", movement.magnitude > 0);
+
+        // Flip sprite
         if (movement.x < 0)
             spriteRenderer.flipX = true;
         else if (movement.x > 0)
             spriteRenderer.flipX = false;
+
+        
+        if (recoilTimer > 0)
+            recoilTimer -= Time.deltaTime;
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (recoilTimer > 0)
+        {
+            rb.velocity = recoilDirection * recoilForce;
+        }
+        else
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        while (collision.collider.CompareTag("Monster"))
+        if (collision.collider.CompareTag("Monster"))
         {
-           
-            Vector2 direction = (transform.position - collision.transform.position).normalized;
-            rb.AddForce(direction * recoilForce, ForceMode2D.Impulse);
+        
+            recoilDirection = (rb.position - collision.GetContact(0).point).normalized;
 
-           
-            if (animator != null)
-                animator.SetTrigger("Hurt");
+            recoilTimer = recoilDuration;
 
+            animator.SetTrigger("Hurt");
             Debug.Log("Player is hurt");
-        } else {
-            break;
         }
 
         if (collision.collider.CompareTag("Animal"))
