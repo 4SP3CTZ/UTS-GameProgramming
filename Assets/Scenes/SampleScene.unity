@@ -17640,6 +17640,7 @@ GameObject:
   - component: {fileID: 817592294}
   - component: {fileID: 817592296}
   - component: {fileID: 817592295}
+  - component: {fileID: 817592297}
   m_Layer: 0
   m_Name: Cows
   m_TagString: Animal
@@ -17752,6 +17753,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &817592297
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817592293}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6eed7ead068a8c248b891450d43f2f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1229827747
 GameObject:
   m_ObjectHideFlags: 0
@@ -21259,6 +21281,7 @@ GameObject:
   - component: {fileID: 1558778137}
   - component: {fileID: 1558778139}
   - component: {fileID: 1558778138}
+  - component: {fileID: 1558778140}
   m_Layer: 0
   m_Name: Cows (2)
   m_TagString: Animal
@@ -21368,6 +21391,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1558778140
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558778136}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6eed7ead068a8c248b891450d43f2f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1589513593
 GameObject:
   m_ObjectHideFlags: 0
@@ -21379,6 +21423,7 @@ GameObject:
   - component: {fileID: 1589513596}
   - component: {fileID: 1589513595}
   - component: {fileID: 1589513594}
+  - component: {fileID: 1589513597}
   m_Layer: 0
   m_Name: Cows (1)
   m_TagString: Animal
@@ -21488,6 +21533,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 817592294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1589513597
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589513593}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6eed7ead068a8c248b891450d43f2f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1645912909
 GameObject:
   m_ObjectHideFlags: 0
@@ -21499,6 +21565,7 @@ GameObject:
   - component: {fileID: 1645912910}
   - component: {fileID: 1645912912}
   - component: {fileID: 1645912911}
+  - component: {fileID: 1645912913}
   m_Layer: 0
   m_Name: Cows (3)
   m_TagString: Animal
@@ -21608,6 +21675,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1645912913
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645912909}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6eed7ead068a8c248b891450d43f2f92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1839387862
 GameObject:
   m_ObjectHideFlags: 0
@@ -25813,7 +25901,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 43
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -25953,7 +26041,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27043,7 +27131,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27053,7 +27141,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27202,14 +27290,14 @@ Tilemap:
     m_Data: {fileID: 257132660, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 39
     m_Data: {fileID: 103605040, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -1944809828, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 701756065, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1363851858, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1104472387, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: -417334116, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 8
@@ -27282,8 +27370,8 @@ Tilemap:
     m_Data: {fileID: 322840588, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 711206926, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1104472387, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 12
     m_Data: {fileID: -114977515, guid: c504d84839b7d0247a48469e1c1d1ff8, type: 3}
   - m_RefCount: 9
@@ -126228,6 +126316,7 @@ GameObject:
   - component: {fileID: 2135901025}
   - component: {fileID: 2135901027}
   - component: {fileID: 2135901026}
+  - component: {fileID: 2135901028}
   m_Layer: 0
   m_Name: Monsters
   m_TagString: Monster
@@ -126337,6 +126426,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
+--- !u!95 &2135901028
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135901024}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a989f3ce57c0d947b41cb4901699035, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
