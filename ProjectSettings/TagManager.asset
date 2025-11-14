@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Monster
+  - Animal
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,34 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 3974309857
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 352637151
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 2886310683
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 1528142961
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1157087193
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 3090571661
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 1428532817
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 4034406807
+    locked: 0
+  - name: New Layer 9
+    uniqueID: 1035106517
+    locked: 0
+  - name: New Layer 10
+    uniqueID: 2338774503
     locked: 0
