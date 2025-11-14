@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
         
         animator.SetBool("isRunning", movement.magnitude > 0);
 
-        // Flip sprite
         if (movement.x < 0)
             spriteRenderer.flipX = true;
         else if (movement.x > 0)

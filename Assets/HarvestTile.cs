@@ -4,8 +4,8 @@ using UnityEngine.Tilemaps;
 public class AutoHarvest : MonoBehaviour
 {
     public int counter = 0;
-    public Tilemap vegetableTilemap;      // assign in Inspector
-    public float checkRadius = 0.1f;      // small radius to detect center
+    public Tilemap vegetableTilemap;      
+    public float checkRadius = 0.1f;      
 
     void Update()
     {
